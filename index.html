@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+          href="./assets/css/reset.css">
+    <link rel="stylesheet"
+          href="./assets/css/header.css">
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:wght@300&family=Poppins:wght@300;400;500;700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet"
+          href="./assets/css/style.css">
+    <title>Multi-Bet</title>
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox"
+                   id="menu"
+                   class="container__botao">
+            <label for="menu">
+                <span class="cabecalho__menu-hamburguer"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#"
+                       class="lista-menu__link">Futebol</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#"
+                       class="lista-menu__link">Voley</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#"
+                       class="lista-menu__link">Basket</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#"
+                       class="lista-menu__link">Golfe</a>
+                </li>
+        
+        
+            </ul>
+            <!-- espaço reservado para o logo ->   <img src="./assets/img/Logo.svg" alt=""> -->
+        </div>
+        <div class="container">
+            <input type="checkbox"
+                   id="coracao">
+            <label class="icone"
+                   for="coracao"
+                   class="container__img">
+                <!-- imagem em codigo svg do coração, necessário para animação de preenchimento do coração -->
+       <!--          <svg width="35"
+                     height="32"
+                     viewBox="0 0 24 22"
+                     fill="none"
+                     class="heart"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20.8397 3.49592C20.329 2.98492 19.7226 2.57957 19.0551 2.303C18.3876 2.02644 17.6722 1.88409 16.9497 1.88409C16.2273 1.88409 15.5118 2.02644 14.8444 2.303C14.1769 2.57957 13.5705 2.98492 13.0597 3.49592L11.9997 4.55592L10.9397 3.49592C9.90805 2.46423 8.50877 1.88463 7.04974 1.88463C5.5907 1.88463 4.19143 2.46423 3.15974 3.49592C2.12805 4.52761 1.54845 5.92689 1.54845 7.38592C1.54845 8.84495 2.12805 10.2442 3.15974 11.2759L4.21974 12.3359L11.9997 20.1159L19.7797 12.3359L20.8397 11.2759C21.3507 10.7652 21.7561 10.1587 22.0327 9.49127C22.3092 8.82382 22.4516 8.10841 22.4516 7.38592C22.4516 6.66343 22.3092 5.94802 22.0327 5.28056C21.7561 4.61311 21.3507 4.00668 20.8397 3.49592V3.49592Z"
+                          stroke="#D73B3B"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round" />
+                </svg> -->
+            </label>
+            <a href="#"><img src="./assets/img/Compras.svg"
+                     class="container__img"
+                     alt=""></a>
+            <a href=""><img src="./assets/img/Usuário.svg"
+                     class="container__img"
+                     alt=""></a>
+            <div>
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo"> Bem vindo ou Multi-Bet ! </h2>
+        <p class="banner__texto">Encontre os próximos jogos e comece a ganhar dinheiro</p>
+        <input type="search"
+               class="banner__pesquisa"
+               placeholder="Qual será seu próximo jogo?">
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Bombando!</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./assets/img/jogo1.jpg"
+                         alt=""> </div>
+                <div class="swiper-slide"><img src="./assets/img/jogo2.jpg"
+                         alt=""></div>
+                <div class="swiper-slide"><img src="./assets/img/jogo3.jpg"
+                         alt=""></div>
+                <div class="swiper-slide"><img src="./assets/img/jogo4.jpg"
+                         alt=""></div>
+                <div class="swiper-slide"><img src="./assets/img/jogo5.jpg"
+                         alt=""></div>
+                <div class="swiper-slide"><img src="./assets/img/jogo6.jpg"
+                         alt=""></div>
+
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    <div class="card">
+        <!-- 1° linha -->
+        <div class="card__descricao">
+            <!-- 1° coluna -->
+            <div class="descricao">
+            <h3 class="descricao__titulo">Tavelvez você tambem se interesse por...</h3>
+            <h2 class="descricao__titulo-livro">Consultoria de apostas</h2>
+            <p class="descricao__texto">Assine o plano de consultor e tenha ajuda com as melhores apostas</p>
+    </div>
+    <!-- 2° coluna -->
+    <img src="./assets/img/consultor.jpg" alt="" class="descricao__imagem">
+            </div>
+            <!-- 2° linha -->
+            <div class="card__botoes">
+                <ul class="botoes">
+                    <!-- 1° coluna -->
+                    <li class="botoes__item">
+                        <img src="./assets/img/Favoritos.svg" alt="">
+                        <img src="./assets/img/Compras.svg" alt="">
+                    </li>
+                </ul>
+                <!-- 2° coluna -->
+                <a href="#" class="botoes__ancora">Saiba mais</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+          <p>Copyright &copy; Multi-Bet by Rampazio</p>
+        </div>
+      </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>const swiper = new Swiper('.swiper', {
+            slidesPerView: 2,
+            spaceBetween: 50,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });</script>
+</body>
+
+</html>

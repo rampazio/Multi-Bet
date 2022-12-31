@@ -1,0 +1,36 @@
+@import url("./header.css");
+@import url("./banner.css");
+@import url("./coracao.css");
+@import url("./carrossel.css");
+
+:root {
+    --cor--de--fundo: #d2d7e0;
+    --branco:#ffffff;
+    --fonte-principal: "poppins";
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+ 
+
+
+}
+
+body{
+    background-color: var(--cor--de--fundo);
+    
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0.5em;
+    margin: 3em 0 0 0 ;
+  }
+  
+  footer p {
+   
+    text-align: center;
+  }
+
+
