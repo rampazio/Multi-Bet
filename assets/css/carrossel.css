@@ -92,3 +92,12 @@ margin: 2px;
     border: black solid 1px;
 }
 
+.estrela {
+    display: flex;
+    color: yellowgreen;
+    margin: 1em;   
+}
+
+.estrela i {
+    margin: 0.2em;
+}

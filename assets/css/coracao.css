@@ -4,10 +4,34 @@
 
 #coracao {
     display: none;
+    margin: 1em;
 
   }
   
   #coracao:checked + .icone > .heart {
+    
+    animation: preencher 0.5s forwards; 
+
+  }
+
+
+  
+  @keyframes preencher {
+    0% {
+      fill: transparent;
+    }
+
+    100% {
+      fill: #d75a4a;
+    }
+  }   
+
+  #coracao2 {
+    display: none;
+    margin: 1em;
+  }
+  
+  #coracao2:checked + .icone2 > .heart2 {
     
     animation: preencher 0.5s forwards; 
 
