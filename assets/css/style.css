@@ -2,6 +2,7 @@
 @import url("./banner.css");
 @import url("./coracao.css");
 @import url("./carrossel.css");
+@import url("./darktheme.css");
 
 :root {
     --cor--de--fundo: #d2d7e0;
@@ -32,5 +33,6 @@ footer {
    
     text-align: center;
   }
+
 
 

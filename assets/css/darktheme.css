@@ -1,0 +1,36 @@
+/* Defina as regras de estilo para o tema escuro */
+body.dark-theme {
+    background-color: #222222;
+    color: red;
+    
+  }
+  
+  /* Defina as regras de estilo para o tema claro */
+  body.light-theme {
+    background-color: var(--cor--de--fundo);
+    
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+
+  .lampada__ligada{
+
+    width: 25px;
+    height: 25px;
+    background-image: url("../img/lampada/ligada.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+  }
+  
+  .lampada__desligada{
+  
+    width: 25px;
+    height: 25px;
+    background-image: url("../img/lampada/desligada.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+  }
+  
