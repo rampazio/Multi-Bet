@@ -3,6 +3,8 @@
 @import url("./coracao.css");
 @import url("./carrossel.css");
 @import url("./darktheme.css");
+@import url("./topicos.css");
+@import url("./contato.css");
 
 :root {
     --cor--de--fundo: #d2d7e0;

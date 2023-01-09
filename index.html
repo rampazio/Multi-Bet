@@ -56,24 +56,35 @@
 
             </ul>
 
-           
-            
-            <span class="lampada__ligada" onclick="toggleTheme()" > </span>
+                <h1 class="container__titulo"><b class="container__titulo--negrito"> MULTI-</b>BET</h1>
+
+            <span class="lampada__ligada"
+                  onclick="toggleTheme()"> </span>
 
             <!-- espaço reservado para o logo  <img src="./assets/img/Logo.svg" alt="">  -->
 
         </div>
+
+        <ul class="opcoes">
+            <li class="opcoes__item"> <a href="#"class="opcoes__link">Categoria</a></li>
+            <li class="opcoes__item"> <a href="#" class="opcoes__link">Favoritos</a></li>
+            <li class="opcoes__item"> <a href="#" class="opcoes__link" >Meus jogos</a></li>
+
+        </ul>
+
+
+
         <div class="container">
-            
-            <a href="#" ><img  src="./assets/img/Compras.svg"
-                
-                     class="container__img" 
+
+            <a href="#"><img src="./assets/img/Compras.svg"
+                     class="container__img"
                      alt=""></a>
             <a href=""><img src="./assets/img/Usuário.svg"
-                
                      class="container__img"
                      alt=""></a>
             <div>
+         
+
     </header>
     <section class="banner">
         <h2 class="banner__titulo"> Bem vindo ou Multi-Bet ! </h2>
@@ -110,17 +121,19 @@
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
         </div>
-    <div class="card">
-        <!-- 1° linha -->
-        <div class="card__descricao">
-            <!-- 1° coluna -->
-            <div class="descricao">
-            <h3 class="descricao__titulo">Tavelvez você tambem se interesse por...</h3>
-            <h2 class="descricao__titulo-livro">Consultoria de apostas</h2>
-            <p class="descricao__texto">Assine o plano de consultor e tenha ajuda com as melhores apostas</p>
-    </div>
-    <!-- 2° coluna -->
-    <img src="./assets/img/consultor.jpg" alt="" class="descricao__imagem">
+        <div class="card">
+            <!-- 1° linha -->
+            <div class="card__descricao">
+                <!-- 1° coluna -->
+                <div class="descricao">
+                    <h3 class="descricao__titulo">Tavelvez você tambem se interesse por...</h3>
+                    <h2 class="descricao__titulo-livro">Consultoria de apostas</h2>
+                    <p class="descricao__texto">Assine o plano de consultor e tenha ajuda com as melhores apostas</p>
+                </div>
+                <!-- 2° coluna -->
+                <img src="./assets/img/consultor.jpg"
+                     alt=""
+                     class="descricao__imagem">
             </div>
             <!-- 2° linha -->
             <div class="card__botoes">
@@ -130,31 +143,32 @@
 
 
                         <input type="checkbox"
-                        id="coracao">
-                 <label class="icone"
-                        for="coracao"
-                        class="container__img">
-                     <!-- imagem em codigo svg do coração, necessário para animação de preenchimento do coração -->
-                     <svg width="35"
-                          height="32"
-                          viewBox="0 0 24 22"
-                          fill="none"
-                          class="heart"
-                          xmlns="http://www.w3.org/2000/svg">
-                         <path d="M20.8397 3.49592C20.329 2.98492 19.7226 2.57957 19.0551 2.303C18.3876 2.02644 17.6722 1.88409 16.9497 1.88409C16.2273 1.88409 15.5118 2.02644 14.8444 2.303C14.1769 2.57957 13.5705 2.98492 13.0597 3.49592L11.9997 4.55592L10.9397 3.49592C9.90805 2.46423 8.50877 1.88463 7.04974 1.88463C5.5907 1.88463 4.19143 2.46423 3.15974 3.49592C2.12805 4.52761 1.54845 5.92689 1.54845 7.38592C1.54845 8.84495 2.12805 10.2442 3.15974 11.2759L4.21974 12.3359L11.9997 20.1159L19.7797 12.3359L20.8397 11.2759C21.3507 10.7652 21.7561 10.1587 22.0327 9.49127C22.3092 8.82382 22.4516 8.10841 22.4516 7.38592C22.4516 6.66343 22.3092 5.94802 22.0327 5.28056C21.7561 4.61311 21.3507 4.00668 20.8397 3.49592V3.49592Z"
-                               stroke="#D73B3B"
-                               stroke-width="2"
-                               stroke-linecap="round"
-                               stroke-linejoin="round" />
-                     </svg> 
-                 </label>
-                        
-                        
-                       <!--  <img src="./assets/img/Compras.svg" alt=""> -->
+                               id="coracao">
+                        <label class="icone"
+                               for="coracao"
+                               class="container__img">
+                            <!-- imagem em codigo svg do coração, necessário para animação de preenchimento do coração -->
+                            <svg width="35"
+                                 height="32"
+                                 viewBox="0 0 24 22"
+                                 fill="none"
+                                 class="heart"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.8397 3.49592C20.329 2.98492 19.7226 2.57957 19.0551 2.303C18.3876 2.02644 17.6722 1.88409 16.9497 1.88409C16.2273 1.88409 15.5118 2.02644 14.8444 2.303C14.1769 2.57957 13.5705 2.98492 13.0597 3.49592L11.9997 4.55592L10.9397 3.49592C9.90805 2.46423 8.50877 1.88463 7.04974 1.88463C5.5907 1.88463 4.19143 2.46423 3.15974 3.49592C2.12805 4.52761 1.54845 5.92689 1.54845 7.38592C1.54845 8.84495 2.12805 10.2442 3.15974 11.2759L4.21974 12.3359L11.9997 20.1159L19.7797 12.3359L20.8397 11.2759C21.3507 10.7652 21.7561 10.1587 22.0327 9.49127C22.3092 8.82382 22.4516 8.10841 22.4516 7.38592C22.4516 6.66343 22.3092 5.94802 22.0327 5.28056C21.7561 4.61311 21.3507 4.00668 20.8397 3.49592V3.49592Z"
+                                      stroke="#D73B3B"
+                                      stroke-width="2"
+                                      stroke-linecap="round"
+                                      stroke-linejoin="round" />
+                            </svg>
+                        </label>
+
+
+                        <!--  <img src="./assets/img/Compras.svg" alt=""> -->
                     </li>
                 </ul>
                 <!-- 2° coluna -->
-                <a href="https://wa.me/5521965139581" class="botoes__ancora">Saiba mais</a>
+                <a href="https://wa.me/5521965139581"
+                   class="botoes__ancora">Saiba mais</a>
             </div>
         </div>
     </section>
@@ -186,27 +200,29 @@
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
         </div>
-    <div class="card">
-        <!-- 1° linha -->
-        <div class="card__descricao">
-            <!-- 1° coluna -->
-            <div class="descricao">
+        <div class="card">
+            <!-- 1° linha -->
+            <div class="card__descricao">
+                <!-- 1° coluna -->
+                <div class="descricao">
 
-                <div class="estrela">
-                <i class="fa-sharp fa-solid fa-star"></i>
-                <i class="fa-sharp fa-solid fa-star"></i>
-                <i class="fa-sharp fa-solid fa-star"></i>
-                <i class="fa-sharp fa-solid fa-star"></i>
-                <i class="fa-sharp fa-solid fa-star"></i>
+                    <div class="estrela">
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
 
-            </div>
+                    </div>
 
-           <!--  <h3 class="descricao__titulo">Tavelvez você tambem se interesse por...</h3> -->
-            <h2 class="descricao__titulo-livro">Jogador do Mês</h2>
-            <p class="descricao__texto">Levou tudo! Ganhos de 32 mil reais no ultimo mês</p>
-    </div>
-    <!-- 2° coluna -->
-    <img src="./assets/img/jogador_do_mes.png" alt="" class="descricao__imagem">
+                    <!--  <h3 class="descricao__titulo">Tavelvez você tambem se interesse por...</h3> -->
+                    <h2 class="descricao__titulo-livro">Jogador do Mês</h2>
+                    <p class="descricao__texto">Levou tudo! Ganhos de 32 mil reais no ultimo mês</p>
+                </div>
+                <!-- 2° coluna -->
+                <img src="./assets/img/jogador_do_mes.png"
+                     alt=""
+                     class="descricao__imagem">
             </div>
             <!-- 2° linha -->
             <div class="card__botoes">
@@ -217,43 +233,86 @@
 
 
                         <input type="checkbox"
-                        id="coracao2">
-                 <label class="icone2"
-                        for="coracao2"
-                        class="container__img">
-                     <!-- imagem em codigo svg do coração, necessário para animação de preenchimento do coração -->
-                     <svg width="35"
-                          height="32"
-                          viewBox="0 0 24 22"
-                          fill="none"
-                          class="heart2"
-                          xmlns="http://www.w3.org/2000/svg">
-                         <path d="M20.8397 3.49592C20.329 2.98492 19.7226 2.57957 19.0551 2.303C18.3876 2.02644 17.6722 1.88409 16.9497 1.88409C16.2273 1.88409 15.5118 2.02644 14.8444 2.303C14.1769 2.57957 13.5705 2.98492 13.0597 3.49592L11.9997 4.55592L10.9397 3.49592C9.90805 2.46423 8.50877 1.88463 7.04974 1.88463C5.5907 1.88463 4.19143 2.46423 3.15974 3.49592C2.12805 4.52761 1.54845 5.92689 1.54845 7.38592C1.54845 8.84495 2.12805 10.2442 3.15974 11.2759L4.21974 12.3359L11.9997 20.1159L19.7797 12.3359L20.8397 11.2759C21.3507 10.7652 21.7561 10.1587 22.0327 9.49127C22.3092 8.82382 22.4516 8.10841 22.4516 7.38592C22.4516 6.66343 22.3092 5.94802 22.0327 5.28056C21.7561 4.61311 21.3507 4.00668 20.8397 3.49592V3.49592Z"
-                               stroke="#D73B3B"
-                               stroke-width="2"
-                               stroke-linecap="round"
-                               stroke-linejoin="round" />
-                     </svg> 
-                 </label>
+                               id="coracao2">
+                        <label class="icone2"
+                               for="coracao2"
+                               class="container__img">
+                            <!-- imagem em codigo svg do coração, necessário para animação de preenchimento do coração -->
+                            <svg width="35"
+                                 height="32"
+                                 viewBox="0 0 24 22"
+                                 fill="none"
+                                 class="heart2"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.8397 3.49592C20.329 2.98492 19.7226 2.57957 19.0551 2.303C18.3876 2.02644 17.6722 1.88409 16.9497 1.88409C16.2273 1.88409 15.5118 2.02644 14.8444 2.303C14.1769 2.57957 13.5705 2.98492 13.0597 3.49592L11.9997 4.55592L10.9397 3.49592C9.90805 2.46423 8.50877 1.88463 7.04974 1.88463C5.5907 1.88463 4.19143 2.46423 3.15974 3.49592C2.12805 4.52761 1.54845 5.92689 1.54845 7.38592C1.54845 8.84495 2.12805 10.2442 3.15974 11.2759L4.21974 12.3359L11.9997 20.1159L19.7797 12.3359L20.8397 11.2759C21.3507 10.7652 21.7561 10.1587 22.0327 9.49127C22.3092 8.82382 22.4516 8.10841 22.4516 7.38592C22.4516 6.66343 22.3092 5.94802 22.0327 5.28056C21.7561 4.61311 21.3507 4.00668 20.8397 3.49592V3.49592Z"
+                                      stroke="#D73B3B"
+                                      stroke-width="2"
+                                      stroke-linecap="round"
+                                      stroke-linejoin="round" />
+                            </svg>
+                        </label>
 
                         <!-- <img src="./assets/img/Favoritos.svg" alt=""> -->
                         <!-- <img src="./assets/img/Compras.svg" alt=""> -->
                     </li>
                 </ul>
                 <!-- 2° coluna -->
-                <a href="https://wa.me/5521965139581" class="botoes__ancora">Saiba mais</a>
+                <a href="https://wa.me/5521965139581"
+                   class="botoes__ancora">Saiba mais</a>
             </div>
         </div>
     </section>
+    <section class="topicos">
+
+        <h2 class="topicos__titulo">Topicos visitados recentemente</h2>
+        <ul class="topicos__lista">
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">
+                    Jogo da semana
+                </a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">
+                    Aposte alto
+                </a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">
+                    Escalação de times
+                </a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">
+                    Estatisticas
+                </a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">
+                    Tabela Brasileirão
+                </a>
+            </li>
+
+        </ul>
+
+    </section>
+
+<section class="contato">
+    <h2 class="contato__titulo">Fique por dentro das novidades</h2>
+    <p class="contato__texto">Atualizações, ofertas, novidades e muitos mais</p>
+    <input type="email" name="" class="contato__email" placeholder="Cadastre seu e-mail">
+
+</section>
+<hr>
+
     <footer>
         <div class="container">
-          <p>Copyright &copy; Multi-Bet by Rampazio</p>
-          
-        </div>
-      </footer>
-    
+            <p>Copyright &copy; Multi-Bet by Rampazio</p>
 
-      <!-- carrossel -->
+        </div>
+    </footer>
+
+
+    <!-- carrossel -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script>const swiper = new Swiper('.swiper', {
             slidesPerView: 2,
@@ -264,11 +323,12 @@
             },
         });</script>
 
-        <!-- fontes -->
-        <script src="https://kit.fontawesome.com/257b7b0775.js" crossorigin="anonymous"></script>
+    <!-- fontes -->
+    <script src="https://kit.fontawesome.com/257b7b0775.js"
+            crossorigin="anonymous"></script>
 
-        <!-- tema escuro -->
-<script src="./assets/javascripit/themedark.js" ></script>
+    <!-- tema escuro -->
+    <script src="./assets/javascripit/themedark.js"></script>
 
 </body>
 
