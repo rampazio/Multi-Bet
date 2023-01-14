@@ -56,7 +56,7 @@
 
             </ul>
 
-                <h1 class="container__titulo"><b class="container__titulo--negrito"> MULTI-</b>BET</h1>
+            <h1 class="container__titulo"><b class="container__titulo--negrito"> MULTI-</b>BET</h1>
 
             <span class="lampada__ligada"
                   onclick="toggleTheme()"> </span>
@@ -66,9 +66,40 @@
         </div>
 
         <ul class="opcoes">
-            <li class="opcoes__item"> <a href="#"class="opcoes__link">Categoria</a></li>
-            <li class="opcoes__item"> <a href="#" class="opcoes__link">Favoritos</a></li>
-            <li class="opcoes__item"> <a href="#" class="opcoes__link" >Meus jogos</a></li>
+            <input type="checkbox"
+                   id="option-menu"
+                   class="opcoes__botao">
+            <label for="option-menu">
+                <li class="opcoes__item">Categoria</li>
+            </label>
+
+
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#"
+                       class="lista-menu__link">Futebol</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#"
+                       class="lista-menu__link">Voley</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#"
+                       class="lista-menu__link">Basket</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#"
+                       class="lista-menu__link">Golfe</a>
+                </li>
+
+            </ul>
+
+            
+            <li class="opcoes__item"> <a href="#"
+                   class="opcoes__link">Favoritos</a></li>
+            <li class="opcoes__item"> <a href="#"
+                   class="opcoes__link">Meus jogos</a></li>
 
         </ul>
 
@@ -76,18 +107,18 @@
 
         <div class="container">
 
-            <a href="#"><img src="./assets/img/Compras.svg"
-                     class="container__img"
-                     alt=""></a>
+         
             <a href=""><img src="./assets/img/Usuário.svg"
                      class="container__img"
                      alt=""></a>
+<p class="container__texto">Meu Perfil</p>
+
             <div>
-         
+
 
     </header>
     <section class="banner">
-        <h2 class="banner__titulo"> Bem vindo ou Multi-Bet ! </h2>
+        <h2 class="banner__titulo"> Bem vindo ao Multi-Bet ! </h2>
         <p class="banner__texto">Encontre os próximos jogos e comece a ganhar dinheiro</p>
         <input type="search"
                class="banner__pesquisa"
@@ -96,6 +127,8 @@
     <section class="carrossel">
         <h2 class="carrossel__titulo">Bombando!</h2>
         <!-- Slider main container -->
+        <div class="carrossel__container">
+
         <div class="swiper">
             <!-- Additional required wrapper -->
             <!-- If we need pagination -->
@@ -170,11 +203,12 @@
                 <a href="https://wa.me/5521965139581"
                    class="botoes__ancora">Saiba mais</a>
             </div>
-        </div>
+        </div></div>
     </section>
     <section class="carrossel">
         <h2 class="carrossel__titulo">Outros jogos!</h2>
         <!-- Slider main container -->
+        <div class="carrossel__container">
         <div class="swiper">
             <!-- Additional required wrapper -->
             <!-- If we need pagination -->
@@ -260,34 +294,39 @@
                 <a href="https://wa.me/5521965139581"
                    class="botoes__ancora">Saiba mais</a>
             </div>
-        </div>
+        </div></div>
     </section>
     <section class="topicos">
 
         <h2 class="topicos__titulo">Topicos visitados recentemente</h2>
         <ul class="topicos__lista">
             <li class="topicos__item">
-                <a href="#" class="topicos__link">
+                <a href="#"
+                   class="topicos__link">
                     Jogo da semana
                 </a>
             </li>
             <li class="topicos__item">
-                <a href="#" class="topicos__link">
+                <a href="#"
+                   class="topicos__link">
                     Aposte alto
                 </a>
             </li>
             <li class="topicos__item">
-                <a href="#" class="topicos__link">
+                <a href="#"
+                   class="topicos__link">
                     Escalação de times
                 </a>
             </li>
             <li class="topicos__item">
-                <a href="#" class="topicos__link">
+                <a href="#"
+                   class="topicos__link">
                     Estatisticas
                 </a>
             </li>
             <li class="topicos__item">
-                <a href="#" class="topicos__link">
+                <a href="#"
+                   class="topicos__link">
                     Tabela Brasileirão
                 </a>
             </li>
@@ -296,13 +335,19 @@
 
     </section>
 
-<section class="contato">
-    <h2 class="contato__titulo">Fique por dentro das novidades</h2>
-    <p class="contato__texto">Atualizações, ofertas, novidades e muitos mais</p>
-    <input type="email" name="" class="contato__email" placeholder="Cadastre seu e-mail">
+    <section class="contato">
+        <div class="contato__descricao">
 
-</section>
-<hr>
+            <h2 class="contato__titulo">Fique por dentro das novidades</h2>
+            <p class="contato__texto">Atualizações, ofertas, novidades e muitos mais</p>
+        </div>
+        <input type="email"
+               name=""
+               class="contato__email"
+               placeholder="Cadastre seu e-mail">
+
+    </section>
+    <hr>
 
     <footer>
         <div class="container">

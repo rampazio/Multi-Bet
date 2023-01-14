@@ -43,3 +43,30 @@ height: 300;
     padding: 0 0 0 3em;
     text-align: left;
 }
+
+@media screen and (min-width: 700px) {
+
+.contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato__email {
+    width: 40%;
+}
+
+.contato__descricao {
+    margin-right: 3em;
+}
+
+.contato__titulo {
+    font-size: 22px;
+}
+
+.contato__texto{
+    font-size: 18px;
+}
+
+    
+}

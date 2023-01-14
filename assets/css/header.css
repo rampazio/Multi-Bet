@@ -68,7 +68,9 @@
 .opcoes {
   display: none;
 }
-
+.container__texto{
+  display: none;
+}
 @media screen and (min-width: 700px) {
   
   .container__titulo {
@@ -77,29 +79,21 @@
     font-weight: 400;
     display: block;
   }
-
-
 .container__titulo--negrito {
   font-weight: 700;
   font-size: 24px;
 }
-
-
   .cabecalho__menu-hamburguer {
     display: none;
 
   }
-
 .opcoes {
   display: flex;
-  
-
 }
 .opcoes__item {
   padding: 0 1em;
   text-transform: uppercase;
 }
-
 .opcoes__link {
   text-decoration: none;
   color: black;
@@ -107,6 +101,32 @@
   font-weight: 700;
 
 }
+.opcoes__botao:checked ~.lista-menu{
+  display: block;
+  width: auto;
+  text-decoration: none; 
+}
+.opcoes__botao{
+display: none;
+}
+}
+
+@media screen and (min-width:900px) {
+
+.cabecalho {
+padding: 0 2em;  
+}
+
+.container__texto{
+  display: flex;
+}
+
+.opcoes {
+  margin-right: auto;
+  padding: 0 4em;  
+}
+}
 
 
+  
 }

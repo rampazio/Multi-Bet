@@ -101,3 +101,42 @@ margin: 2px;
 .estrela i {
     margin: 0.2em;
 }
+
+@media screen and (min-width: 700px) {
+
+
+    .swiper-slide img {
+    width: 396px;
+    height: 205px;
+    
+}
+    
+.carrossel__titulo {
+    font-size: 32px;
+}
+
+.card {
+    width: 50%;
+margin: 1em auto;
+    
+}
+
+}
+
+@media screen and (min-width: 1600px) {
+
+    .carrossel__container {
+        display: flex;
+        margin: 0 20em 3em 20em;
+    }
+
+    .card {
+        width: 80%;
+        margin: 3 5em;
+    }
+
+    .swiper-slide img {
+        width: 70%;
+    }
+    
+}
